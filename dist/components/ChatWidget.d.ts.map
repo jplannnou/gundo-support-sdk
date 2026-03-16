@@ -1,0 +1,1 @@
+{"version":3,"file":"ChatWidget.d.ts","sourceRoot":"","sources":["../../src/components/ChatWidget.tsx"],"names":[],"mappings":"AAOA,OAAO,kBAAkB,CAAC;AAE1B,UAAU,eAAe;IACvB,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB;AAED,wBAAgB,UAAU,CAAC,EAAE,KAAuB,EAAE,EAAE,eAAe,2CAoCtE"}

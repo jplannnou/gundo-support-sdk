@@ -1,0 +1,1 @@
+{"version":3,"file":"MessageInput.d.ts","sourceRoot":"","sources":["../../src/components/MessageInput.tsx"],"names":[],"mappings":"AAEA,UAAU,iBAAiB;IACzB,MAAM,EAAE,CAAC,OAAO,EAAE,MAAM,KAAK,IAAI,CAAC;IAClC,QAAQ,EAAE,OAAO,CAAC;IAClB,WAAW,CAAC,EAAE,MAAM,CAAC;CACtB;AAED,wBAAgB,YAAY,CAAC,EAAE,MAAM,EAAE,QAAQ,EAAE,WAAkC,EAAE,EAAE,iBAAiB,2CAqDvG"}

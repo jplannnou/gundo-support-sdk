@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export function ChatHeader({ title, onClose, onMinimize }) {
+    return (_jsxs("div", { className: "chat-header", children: [_jsx("h3", { className: "chat-header__title", children: title }), _jsxs("div", { className: "chat-header__actions", children: [_jsx("button", { className: "chat-header__btn", onClick: onMinimize, "aria-label": "Minimize", children: _jsx("svg", { width: "14", height: "14", viewBox: "0 0 24 24", fill: "currentColor", children: _jsx("path", { d: "M19 13H5v-2h14v2z" }) }) }), _jsx("button", { className: "chat-header__btn", onClick: onClose, "aria-label": "Close", children: _jsx("svg", { width: "14", height: "14", viewBox: "0 0 24 24", fill: "currentColor", children: _jsx("path", { d: "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" }) }) })] })] }));
+}
+//# sourceMappingURL=ChatHeader.js.map
