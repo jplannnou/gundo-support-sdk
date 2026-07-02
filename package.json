@@ -18,6 +18,8 @@
     "copy-assets": "node -e \"const fs=require('fs'),p=require('path');(function cp(s,d){fs.readdirSync(s,{withFileTypes:true}).forEach(e=>{if(e.isDirectory())cp(p.join(s,e.name),p.join(d,e.name));else if(e.name.endsWith('.css')){fs.mkdirSync(d,{recursive:true});fs.copyFileSync(p.join(s,e.name),p.join(d,e.name))}})})('src','dist')\"",
     "build": "tsc && pnpm copy-assets",
     "prepublishOnly": "pnpm build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "release": "semantic-release"
   },
   "repository": {
@@ -38,7 +40,9 @@
     "@semantic-release/github": "^11.0.0",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.0",
+    "@jplannnou/eslint-config": "^1.0.3",
     "@types/react": "^19.0.0",
+    "eslint": "^9.39.0",
     "semantic-release": "^24.2.0",
     "typescript": "^5.9.0"
   },
