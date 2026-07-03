@@ -1,6 +1,6 @@
 {
   "name": "@jplannnou/support-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ChatWidget + hooks for in-app conversational support, backed by the Gundo Feedback Hub unified inbox.",
   "type": "module",
   "packageManager": "pnpm@10.30.1",

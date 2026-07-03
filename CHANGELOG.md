@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/jplannnou/gundo-support-sdk/compare/v1.0.0...v1.0.1) (2026-07-03)
+
+
+### Bug Fixes
+
+* eslint-config as optionalDependency (unblocks build/deploy/publish installs w/o GH Packages token) ([799733b](https://github.com/jplannnou/gundo-support-sdk/commit/799733bf8d114fa8e115731af575d408e4adb695))
+* regenerate lockfile with eslint-config optional (unblocks frozen installs) ([0b8a896](https://github.com/jplannnou/gundo-support-sdk/commit/0b8a8961922280a7bc9a7a4774cae3d5d1364270))
+
 # 1.0.0 (2026-04-29)
 
 
