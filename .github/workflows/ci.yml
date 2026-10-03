@@ -4,4 +4,4 @@ permissions: { contents: read, packages: read }
 jobs:
   lint:
     uses: jplannnou/gundo-eslint-config/.github/workflows/lint-reusable.yml@main
-    secrets: inherit
+    with: { runner: ubuntu-latest }
